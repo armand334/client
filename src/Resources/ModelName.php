@@ -6,6 +6,8 @@ namespace GeminiAPI\Resources;
 
 class ModelName
 {
+    // I believe all the 1.x models are deprecated
+
     // Optimized for: Natural language tasks, multi-turn text and code chat, and code generation
     public const GEMINI_PRO = 'gemini-pro';
     public const GEMINI_1_0_PRO = 'gemini-1.0-pro';
@@ -28,6 +30,14 @@ class ModelName
     public const GEMINI_1_5_FLASH_8B = 'gemini-1.5-flash-8b';
     public const GEMINI_1_5_FLASH_8B_001 = 'gemini-1.5-flash-8b-001';
     public const GEMINI_1_5_FLASH_8B_LATEST = 'gemini-1.5-flash-8b-latest';
+
+    public const GEMINI_2_5_PRO = 'gemini-2.5-pro';
+    public const GEMINI_2_5_FLASH = 'gemini-2.5-flash';
+    public const GEMINI_2_5_FLASH_LIGHT = 'gemini-2.5-flash-light';
+    public const GEMINI_2_0_FLASH = 'gemini-2.0-flash';
+    public const GEMINI_2_50_FLASH_LIGHT = 'gemini-2.0-flash-light';
+
+
 
     // Optimized for: Measuring the relatedness of text strings
     public const TEXT_EMBEDDING_004 = 'text-embedding-004';
